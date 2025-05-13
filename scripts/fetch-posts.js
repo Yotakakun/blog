@@ -9,7 +9,7 @@ const mkdirp = require('mkdirp'); // フォルダを深い階層ごと作る
 const cheerio = require('cheerio'); // HTMLをパースしてjQuery風に操作できる
 
 // APIエンドポイントとAPIキー設定
-const API_URL = 'https://your-service.microcms.io/api/v1/blog'; // あなたのmicroCMSのAPIエンドポイントに変更
+const API_URL = 'https://suzume.microcms.io/api/v1/articles'; // あなたのmicroCMSのAPIエンドポイントに変更
 const API_KEY = process.env.MICROCMS_API_KEY; // セキュリティのため環境変数から取得
 
 // 通信失敗時にリトライするfetch関数
